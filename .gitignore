@@ -1,0 +1,21 @@
+# Virtual Environments
+venv/
+.venv/
+env/
+.env
+
+# Cache
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+
+# Data & Models
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+models/*
+!models/.gitkeep
+
+# macOS
+.DS_Store
